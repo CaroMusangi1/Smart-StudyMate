@@ -1,0 +1,44 @@
+# Ignore environment variable files
+.env
+*.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.pyo
+*.so
+
+# Logs and local config
+*.log
+*.sqlite3
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store

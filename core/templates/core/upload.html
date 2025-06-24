@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload</title>
+</head>
+<body>
+    <h2>Upload a File</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if summary %}
+        <h3>🧠 AI Summary:</h3>
+        <p>{{ summary }}</p>
+    {% endif %}
+</body>
+</html>

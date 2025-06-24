@@ -1,0 +1,2 @@
+# Smart-StudyMate
+AI summarizer
